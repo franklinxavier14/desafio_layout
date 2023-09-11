@@ -102,7 +102,7 @@ footer {
     grid-template-columns: auto auto auto;
     gap: 20px;
     align-items: center;
-    height: 100vh;
+    height: 40em;
     margin-right: 1.5em;
 }
 .producto h5 {
