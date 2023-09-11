@@ -16,7 +16,6 @@ menu {
     height: 100vh;
     margin-top: 0;
     margin-bottom: 0;
-
 }
 main {
     grid-area: main;
@@ -26,12 +25,10 @@ main {
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-between; 
-
 }
 footer {
     grid-area: footer;
     background-color: grey;
-    
 }
 .grid-container {
     display: grid;
@@ -44,14 +41,12 @@ footer {
 .lateral {
     display: flex;
     flex-direction: column;
-
 }    
 .categoria {
-    
-        flex-direction: row;
-        display: flex;
-        margin: 0; 
-        padding-right: 4em;  
+    flex-direction: row;
+    display: flex;
+    Margin: 0; 
+    padding-right: 4em;  
 }    
 .categoria p {
     font-size: x-small;
@@ -59,18 +54,17 @@ footer {
     margin-left: 0.5em;
     margin-top: 0.2em;
     margin-bottom: 0.5em;
-    }    
-    .categoria h5 {
-        margin-bottom: 0.5em;
-        margin-top: 0;
-        font-weight: lighter;
-    }    
+}    
+.categoria h5 {
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    font-weight: lighter;
+}    
 .accesorios {
-    
-        flex-direction: column;
-        padding: 0; 
-        display: flex;
-        margin: 0; 
+    flex-direction: column;
+    padding: 0; 
+    display: flex;
+    margin: 0; 
 }  
 .accesorios p {
     font-size: x-small;
@@ -78,62 +72,57 @@ footer {
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0.7em;
-    }    
-    .accesorios h5 {
-        margin-bottom: 0.5em;
-        margin-top: 0;
-        font-weight: lighter;
-    }    
-    .producto {
-    
-        flex-direction: column;
-        display: flex;
-        background-color: white;
-        margin: 0;    
-        align-items: center; 
-        border-radius: 5%;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    }   
-    .producto img{
-    
-        width: 80%;   
-    }   
-    .coleccion {
-            padding-top: 1em;
-            display: grid;
-            grid-template-columns: auto auto auto;
-            gap: 20px;
-            align-items: center;
-            height: 15em;
-            margin-right: 1.5em;
-    }
-    .producto h5{
-    
-        margin-top: 1em;
-        margin-bottom: 0.7em;
-    }   
-    .producto p{
-    
-        margin-top: 0;
-        margin-bottom: 0.7em;
-        font-size: small;
-    }   
-    .producto button{
-    
-        width: 100%;
-        color: white;
-        background-color: #333;
-        padding-top: 0.5em;
-        padding-bottom: 0.5em;
-    }   
-    h1 {
-        font-family: 'Carter One';
-    }
+}    
+.accesorios h5 {
+    margin-bottom: 0.5em;
+    margin-top: 0;
+    font-weight: lighter;
+}    
+.producto {
+    flex-direction: column;
+    display: flex;
+    background-color: white;
+    margin: 0;    
+    align-items: center; 
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}   
+.producto img {
+    width: 80%;   
+}   
+.coleccion {
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    align-items: center;
+    height: 15em;
+    margin-right: 1.5em;
+}
+.producto h5 {
+    margin-top: 1em;
+    margin-bottom: 0.7em;
+}   
+.producto p {
+    margin-top: 0;
+    margin-bottom: 0.7em;
+    font-size: small;
+}   
+.producto button {
+    width: 100%;
+    color: white;
+    background-color: #333;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}   
+h1 {
+    font-family: 'Carter One';
+}
     footer p {
-        margin-top: 1em;
-        margin-bottom: 1em;
-        font-size: small;
-        font-weight: bold;
-        text-align: center;
-        justify-content: center;
-    }
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
