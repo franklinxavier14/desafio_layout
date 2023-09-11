@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav {
+    grid-area: nav;
+    background-color: black;
+    height: 5em;
+    color: aliceblue;
+    text-align: center;
+}
+menu {
+    grid-area: menu;
+    background-color: green;
+    padding-left: 1em;
+
+}
+main {
+    grid-area: main;
+    background-color: red;
+}
+footer {
+    grid-area: footer;
+    background-color: aqua;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "nav nav nav nav"
+    "menu main main main"
+    "footer footer footer footer";
+}
+.lateral {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+
+}    
+.categoria {
+    
+        flex-direction: row;
+        padding: 0; /* Reducir el relleno a cero en todas las direcciones */
+        display: flex;
+        background-color: yellow;
+        margin: 0; /* Reducir el margen a cero en todas las direcciones */
+    
+
+}    
+.categoria p {
+    font-size: small;
+    color: gray;
+    padding-top: 0.8em;
+    margin-left: 0.5em;
+    }    
+    
