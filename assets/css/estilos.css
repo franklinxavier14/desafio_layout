@@ -55,10 +55,13 @@ footer {
     margin-top: 0.2em;
     margin-bottom: 0.5em;
 }    
-.categoria h5 {
+.categoria a {
     margin-bottom: 0.5em;
     margin-top: 0;
     font-weight: lighter;
+    text-decoration: none;
+    color: #000; 
+    font-size: small;
 }    
 .accesorios {
     flex-direction: column;
@@ -72,11 +75,15 @@ footer {
     margin-left: 0;
     margin-top: 0;
     margin-bottom: 0.7em;
+    
 }    
-.accesorios h5 {
+.accesorios a {
     margin-bottom: 0.5em;
     margin-top: 0;
     font-weight: lighter;
+    text-decoration: none;
+    color: #000; 
+    font-size: small;
 }    
 .producto {
     flex-direction: column;
